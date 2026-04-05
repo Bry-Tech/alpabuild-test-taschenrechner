@@ -1,1 +1,9 @@
-export default function Home() { return <div className="flex min-h-screen items-center justify-center"><h1 className="text-4xl font-bold">Taschenrechner</h1></div> }
+import Calculator from './components/Calculator';
+
+export default function Home() {
+  return (
+    <main className="p-4">
+      <Calculator />
+    </main>
+  );
+}
